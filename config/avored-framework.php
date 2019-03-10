@@ -38,10 +38,10 @@ return [
     ],
     'auth' => [
         'guards' => [
-            'admin' => [
-                'driver' => 'session',
-                'provider' => 'admin-users',
-            ],
+            // 'admin' => [
+            //     'driver' => 'session',
+            //     'provider' => 'admin-users',
+            // ],
         ],
     
         'providers' => [
